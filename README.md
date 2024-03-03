@@ -65,6 +65,7 @@ function CheckLV()
     end
 end
 
+
 _G.AutoFarmlv = true
 spawn(function()
     while wait() do
@@ -97,6 +98,9 @@ spawn(function()
         end
     end
 end)
+
+
+
 
 _G.bringmob = true
 while _G.bringmob do 
